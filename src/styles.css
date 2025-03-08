@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/primeflex/primeflex.css';
+
+
+
+.login-button .p-ripple{
+    width: 100% !important;
+}
+
+.login-button{
+    padding: 17px;
+
+}
+
+.login-button .p-button:not(:disabled):hover {
+    background: #600548;
+    border: 1px solid #a81c82;
+    color: var(--p-button-primary-hover-color);
+}
+
+
+.login-button .p-button {
+    color: var(--p-button-primary-color);
+    background: #a81c82;
+    border: 1px solid #600548;
+}

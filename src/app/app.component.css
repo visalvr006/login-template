@@ -1,0 +1,23 @@
+.image-column img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+.form-column {
+    background-color: rgb(255, 255, 255);
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #a81c82;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input:focus {
+    border-color: #a81c82;
+  }
